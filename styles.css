@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Styles de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Couleur bleu clair pour l'arrière-plan */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur de la page d'inscription */
+.register-container {
+    background-color: #ffffff; /* Couleur blanche pour le conteneur */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet d'élévation */
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    position: relative;
+}
+
+/* Conteneur du logo Wave */
+.wave-logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style du logo Wave */
+.wave-logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Titre de l'application */
+.app-title {
+    color: #007bff; /* Couleur bleue pour le titre */
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Style du formulaire */
+.form {
+    width: 100%;
+}
+
+/* Style des champs du formulaire */
+.input-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Couleur gris foncé pour les étiquettes */
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Bouton d'inscription */
+.btn {
+    background-color: #ff7f00; /* Couleur orange pour le bouton */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+/* Effet de survol pour le bouton d'inscription */
+.btn:hover {
+    background-color: #e66a00; /* Couleur orange foncée au survol */
+}
+
+/* Message d'erreur */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 15px;
+}

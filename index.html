@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Wave Money</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="register-container">
+        <!-- Ajout du logo Wave en haut -->
+        <div class="wave-logo-container">
+            <img src="logo-wave.png" alt="Logo Wave" class="wave-logo">
+        </div>
+
+        <!-- Titre de l'application -->
+        <h1 class="app-title">WAVE MONEY</h1>
+
+        <!-- Formulaire d'inscription -->
+        <form id="registerForm" class="form">
+            <!-- Champ pour le nom -->
+            <div class="input-container">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <!-- Champ pour le numéro de téléphone -->
+            <div class="input-container">
+                <label for="phone">Numéro de téléphone :</label>
+                <input type="tel" id="phone" required>
+            </div>
+
+            <!-- Champ pour le code d'accès -->
+            <div class="input-container">
+                <label for="accessCode">Code d'accès :</label>
+                <input type="password" id="accessCode" required>
+            </div>
+
+            <!-- Bouton de soumission -->
+            <button type="submit" class="btn">S'inscrire</button>
+        </form>
+
+        <!-- Zone pour afficher le message d'erreur -->
+        <p id="errorMessage" class="error-message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
